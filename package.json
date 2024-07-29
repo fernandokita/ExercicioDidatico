@@ -1,0 +1,23 @@
+{
+  "name": "exerciciosdidaticos_npm_package",
+  "version": "1.0.0",
+  "description": "Este pacote auxiliará nos pequenos reparos durante a implementação de novas funcionalidades",
+  "main": "exercicio1.js",
+  "scripts": {
+    "test": "enter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandokita/ExercicioDidatico.git"
+  },
+  "keywords": [
+    "NPM",
+    "Tutorial"
+  ],
+  "author": "Fernando Kitakawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandokita/ExercicioDidatico/issues"
+  },
+  "homepage": "https://github.com/fernandokita/ExercicioDidatico#readme"
+}
