@@ -15,5 +15,15 @@ function divisaoArray(arraynumero){
 }
 
 function ordenacao(arraynumero, esquerda, direita){
-    
+    let indexEsquerda = 0
+    let indexDireita = 0
+
+    while(indexEsquerda<esquerda && indexDireita<direita){
+        if(esquerda[indexEsquerda]<direita[indexDireita]){
+            arraynumero.push(indexEsquerda)
+        }
+        else{
+            arraynumero.push(indexDireita)
+        }
+    }
 }
