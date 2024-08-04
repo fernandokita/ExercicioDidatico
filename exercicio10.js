@@ -21,9 +21,14 @@ function ordenacao(arraynumero, esquerda, direita){
     while(indexEsquerda<esquerda && indexDireita<direita){
         if(esquerda[indexEsquerda]<direita[indexDireita]){
             arraynumero.push(indexEsquerda)
+            indexEsquerda++
         }
         else{
             arraynumero.push(indexDireita)
+            indexDireita++
         }
     }
 }
+
+console.log(`Lista não ordenada : ${arraynumero}`)
+console.log(`Lista ordenada : ${divisaoArray(arraynumero)}`)
