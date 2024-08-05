@@ -11,4 +11,4 @@ let result = calcularDistancia(x1,y1,x2,y2)
 
 console.log(`A distância entre os pontos ${x1},${y1} , ${x2}, ${y2} é ${result.toFixed(2)}`)
 
-module.export = calcularDistancia
+module.exports = calcularDistancia
