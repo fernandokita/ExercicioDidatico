@@ -30,3 +30,5 @@ function poupanca(vendaDepao,vendaDeBroa){
 poupanca(vendaDepao,vendaDeBroa)
 
 console.log(`De acordo com a venda de hoje, terá que ser guardado ${poupanca(vendaDepao,vendaDeBroa)} na poupança`)
+
+module.exports = poupanca
