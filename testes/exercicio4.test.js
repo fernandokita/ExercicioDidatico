@@ -1,6 +1,8 @@
 import poupanca from "../exercicio4";
 
-const testarPoupanca(){
+const assert = require('assert')
+
+const testarPoupanca=()=>{
     const casosDeTeste = [
         {
             quanPao:0 , vendaDePao: 0*0.12 , quantBroa:0 , vendaDeBroa: 0*1.50 , resultadoEsperado: 0.00
@@ -27,6 +29,8 @@ const testarPoupanca(){
 
         console.log(`Quantidade de pão : ${quanPao} Venda de pão : ${vendaDePao.toFixed(2)} Total : ${resultadoEsperado.toFixed(2)}`)
         console.log(`Quantidade de broa : ${quantBroa} Venda de broa : ${vendaDeBroa.toFixed(2)} Total : ${resultadoEsperado} `)
+
+        assert.strictEqual(resultado,resultadoEsperado)
     }
     )
 }
