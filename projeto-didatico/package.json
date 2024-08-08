@@ -1,7 +1,7 @@
 {
   "name": "projeto-didatico",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "exercicio1.js",
   "scripts": {
     "test": "jest"
   },

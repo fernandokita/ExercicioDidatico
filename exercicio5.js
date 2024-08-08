@@ -14,3 +14,5 @@ function calcularTabuada(n1){
     }
 }
 calcularTabuada(n1)
+
+module.exports = calcularTabuada
