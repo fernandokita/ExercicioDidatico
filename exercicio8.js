@@ -8,9 +8,11 @@ let salarioFuncionario = parseFloat(readline.question("Informe o salário do ven
 let venda = parseFloat(readline.question("Quanto foi vendido ?"))
 
 function valorTotal(salarioFuncionario,venda){
-    let total = salarioFuncionario + (venda*0.04%)
+    let total = salarioFuncionario + (venda*0.04)
     return total
 }
 valorTotal(salarioFuncionario,venda)
 
 console.log(`Valor total do salário com comissão : ${valorTotal(salarioFuncionario,venda)}`)
+
+module.exports = valorTotal
