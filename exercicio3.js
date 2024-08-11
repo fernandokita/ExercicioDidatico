@@ -21,3 +21,5 @@ function superSomador (n1,n2){
 let resultado = superSomador(n1,n2)
 
 console.log("O RESULTADO DA SOMA ENTRE" +n1 +"E"+ n2 +"É IGUAL A "+ resultado)
+
+module.exports = superSomador
